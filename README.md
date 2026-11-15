@@ -15,6 +15,10 @@ Explore NASA climate data for any location on Earth.
 
 Daily and monthly data from 1981 onward come from the [NASA POWER](https://power.larc.nasa.gov) API, based on MERRA-2 reanalysis and CERES SYN1deg satellite products. Data courtesy of the NASA Langley Research Center POWER Project, funded through the NASA Earth Science/Applied Science Program.
 
+## AI Assistance
+
+OpenAI Codex assisted with coding, debugging, UI design, documentation, and submission writing.
+
 ## License
 
 [MIT](LICENSE)
