@@ -50,10 +50,12 @@ export type TimeSeriesResult = {
   series: TimeSeriesData[]
 }
 
+export const DEFAULT_FORMULAS = ['ts_mean(ts_anomaly(T2M, 1991, 2020), 12)', 'PRECTOTCORR']
+
 export function readSavedFormulas(): string[] {
   const formulas = readList('earthlens.formulas')
   const legacy = readList('earthlens.selectedDataKeys')
-  if (!legacy.length) return formulas
+  if (!legacy.length) return formulas.length ? formulas : DEFAULT_FORMULAS
   const merged = [...new Set([...legacy, ...formulas])]
   try {
     localStorage.setItem('earthlens.formulas', JSON.stringify(merged))

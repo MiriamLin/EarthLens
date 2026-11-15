@@ -34,18 +34,16 @@ export default function AnalysisWorkspace({ title, data, onSave, children }: Pro
   const [temporal, setTemporal] = usePersistentState<Temporal>('earthlens.timeSeries.temporal', 'monthly', (value) => value === 'daily' || value === 'monthly')
   const [start, setStart] = usePersistentState('earthlens.timeSeries.start', '2001-01-01')
   const [end, setEnd] = usePersistentState('earthlens.timeSeries.end', `${new Date().getFullYear() - 1}-12-31`)
-  const [expression, setExpression] = usePersistentState('earthlens.timeSeries.expression', 'ts_mean(T2M, 12)')
+  const [expression, setExpression] = usePersistentState('earthlens.timeSeries.expression', '')
   const [result, setResult] = useState<TimeSeriesResult | null>(null)
   const [loading, setLoading] = useState(false)
   const [saving, setSaving] = useState(false)
   const [saveStatus, setSaveStatus] = useState<SaveStatus | null>(null)
   const [error, setError] = useState('')
   const [formulaOpen, setFormulaOpen] = useState(true)
-  const [verified, setVerified] = useState<string | null>(null)
   const request = useRef<AbortController | null>(null)
   const saveRequest = useRef<AbortController | null>(null)
   const located = isValidLocation(latitude, longitude)
-  const generated = verified !== null && verified === expression.trim()
   const rows = useResizable('earthlens.layout.timeSeries.settings', 'y', 96, 56, 240)
   const columns = useResizable('earthlens.layout.timeSeries.formula', 'x', 380, 260, 300)
 
@@ -73,7 +71,6 @@ export default function AnalysisWorkspace({ title, data, onSave, children }: Pro
   }, [expression])
 
   async function save() {
-    if (!generated) return
     saveRequest.current?.abort()
     const controller = new AbortController()
     saveRequest.current = controller
@@ -125,7 +122,6 @@ export default function AnalysisWorkspace({ title, data, onSave, children }: Pro
       }, controller.signal)
       if (!controller.signal.aborted) {
         setResult(body)
-        setVerified(expression.trim())
         setFormulaOpen(false)
       }
     } catch (error) {
@@ -143,13 +139,7 @@ export default function AnalysisWorkspace({ title, data, onSave, children }: Pro
       ) : (
         <button type="submit" form={`${id}-form`} disabled={!expression.trim() || !located} className="btn btn-light">Generate</button>
       )}
-      <button
-        type="button"
-        onClick={() => void save()}
-        disabled={saving || !generated}
-        title={generated ? 'Save this formula' : 'Generate this formula successfully before saving'}
-        className="btn btn-outline-light"
-      >
+      <button type="button" onClick={() => void save()} disabled={saving || !expression.trim()} className="btn btn-outline-light">
         {saving ? 'Saving…' : 'Save'}
       </button>
       {saveStatus && (() => {
