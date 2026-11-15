@@ -1,0 +1,1181 @@
+[
+  {
+    "key": "T2M",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Temperature at 2 Meters",
+    "definition": "The average air (dry bulb) temperature at 2 meters above the surface of the earth.",
+    "units": "C",
+    "subtype": "Temperature"
+  },
+  {
+    "key": "PRECTOTCORR",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Precipitation Corrected",
+    "definition": "The average MERRA-2 bias corrected total precipitation at the surface of the earth.",
+    "units": "mm/day",
+    "subtype": "Water & Precipitation"
+  },
+  {
+    "key": "WS10M",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Wind Speed at 10 Meters",
+    "definition": "The average of wind speed at 10 meters above the surface of the earth.",
+    "units": "m/s",
+    "subtype": "Wind & Pressure"
+  },
+  {
+    "key": "CLOUD_AMT",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "Cloud Amount",
+    "definition": "The average percent of cloud amount during the temporal period.",
+    "units": "%",
+    "subtype": "Clouds & Atmospheric Composition"
+  },
+  {
+    "key": "ALLSKY_SFC_SW_DWN",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "All Sky Surface Shortwave Downward Irradiance",
+    "definition": "The total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under all sky conditions. An alternative term for the total solar irradiance is the \"Global Horizontal Irradiance\" or GHI.",
+    "units": "MJ/m^2/day",
+    "subtype": "Solar Radiation & Light"
+  },
+  {
+    "key": "AIRMASS",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "Air Mass",
+    "definition": "Air Mass according to Perez et al. 1990.",
+    "units": "dimensionless",
+    "subtype": "Solar Radiation & Light"
+  },
+  {
+    "key": "ALLSKY_KT",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "All Sky Insolation Clearness Index",
+    "definition": "A fraction representing clearness of the atmosphere; the all sky insolation that is transmitted through the atmosphere to strike the surface of the earth divided by the average of top of the atmosphere total solar irradiance incident.",
+    "units": "dimensionless",
+    "subtype": "Solar Radiation & Light"
+  },
+  {
+    "key": "ALLSKY_NKT",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "All Sky Normalized Insolation Clearness Index",
+    "definition": "The average zenith angle-independent expression of the all sky insolation clearness index.",
+    "units": "dimensionless",
+    "subtype": "Solar Radiation & Light"
+  },
+  {
+    "key": "ALLSKY_SFC_LW_DWN",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "All Sky Surface Longwave Downward Irradiance",
+    "definition": "The downward thermal infrared irradiance under all sky conditions reaching a horizontal plane at the surface of the earth. Also known as Horizontal Infrared Radiation Intensity from the Sky.",
+    "units": "MJ/m^2/day",
+    "subtype": "Surface Properties"
+  },
+  {
+    "key": "ALLSKY_SFC_LW_UP",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "All Sky Surface Longwave Upward Irradiance",
+    "definition": "The upward thermal infrared irradiance under all sky conditions.",
+    "units": "MJ/m^2/day",
+    "subtype": "Surface Properties"
+  },
+  {
+    "key": "ALLSKY_SFC_PAR_DIFF",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "All Sky Surface Diffuse PAR",
+    "definition": "The diffuse (scattered from original direct path by molecules or particles) Photosynthetically Active Radiation (PAR) solar irradiance incident on a horizontal plane at the surface of the earth under all sky conditions.",
+    "units": "MJ/m^2/day",
+    "subtype": "Solar Radiation & Light"
+  },
+  {
+    "key": "ALLSKY_SFC_PAR_DIRH",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "All Sky Surface Direct Horizontal PAR",
+    "definition": "The Photosynthetically Active Radiation (PAR) solar irradiance incident on a horizontal plane at the surface of the earth under all sky conditions.",
+    "units": "MJ/m^2/day",
+    "subtype": "Solar Radiation & Light"
+  },
+  {
+    "key": "ALLSKY_SFC_PAR_TOT",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "All Sky Surface Total PAR",
+    "definition": "The total (direct plus diffuse) Photosynthetically Active Radiation (PAR) incident on a horizontal plane at the surface of the earth under all sky conditions.",
+    "units": "MJ/m^2/day",
+    "subtype": "Solar Radiation & Light"
+  },
+  {
+    "key": "ALLSKY_SFC_SW_DIFF",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "All Sky Surface Shortwave Diffuse Irradiance",
+    "definition": "The diffuse (scattered from original direct path by molecules or particles) solar irradiance incident on a horizontal plane at the surface of the earth under all sky conditions.",
+    "units": "MJ/m^2/day",
+    "subtype": "Solar Radiation & Light"
+  },
+  {
+    "key": "ALLSKY_SFC_SW_DIRH",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "All Sky Surface Shortwave Direct Horizontal Irradiance",
+    "definition": "The solar irradiance incident on a horizontal plane at the surface of the earth under all sky conditions.",
+    "units": "MJ/m^2/day",
+    "subtype": "Solar Radiation & Light"
+  },
+  {
+    "key": "ALLSKY_SFC_SW_DNI",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "All Sky Surface Shortwave Downward Direct Normal Irradiance",
+    "definition": "The direct solar irradiance incident to a horizontal plane normal (perpendicular) to the direction of the sun's position under all sky conditions.",
+    "units": "MJ/m^2/day",
+    "subtype": "Solar Radiation & Light"
+  },
+  {
+    "key": "ALLSKY_SFC_SW_UP",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "All Sky Surface Shortwave Upward Irradiance",
+    "definition": "The upward shortwave irradiance under all sky conditions.",
+    "units": "MJ/m^2/day",
+    "subtype": "Solar Radiation & Light"
+  },
+  {
+    "key": "ALLSKY_SFC_UVA",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "All Sky Surface UVA Irradiance",
+    "definition": "The ultraviolet A (UVA 315nm-400nm) irradiance under all sky conditions.",
+    "units": "MJ/m^2/day",
+    "subtype": "Solar Radiation & Light"
+  },
+  {
+    "key": "ALLSKY_SFC_UVB",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "All Sky Surface UVB Irradiance",
+    "definition": "The ultraviolet B (UVB 280nm-315nm) irradiance under all sky conditions.",
+    "units": "MJ/m^2/day",
+    "subtype": "Solar Radiation & Light"
+  },
+  {
+    "key": "ALLSKY_SFC_UV_INDEX",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "All Sky Surface UV Index",
+    "definition": "The ultraviolet radiation exposure index.",
+    "units": "W m-2 x 40",
+    "subtype": "Solar Radiation & Light"
+  },
+  {
+    "key": "ALLSKY_SRF_ALB",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "All Sky Surface Albedo",
+    "definition": "The all sky rate of reflectivity of the earth's surface; the ratio of the solar energy reflected by the surface of the earth compared to the total solar energy incident reaching the surface of the earth.",
+    "units": "dimensionless",
+    "subtype": "Surface Properties"
+  },
+  {
+    "key": "AOD_55",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "Aerosol Optical Depth 55",
+    "definition": "The optical thickness at 0.55 um measured vertically; the component of the atmosphere to quantify the removal of radiant energy from an incident beam.",
+    "units": "dimensionless",
+    "subtype": "Clouds & Atmospheric Composition"
+  },
+  {
+    "key": "AOD_55_ADJ",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "Adjusted Aerosol Optical Depth 55",
+    "definition": "The adjusted optical thickness at 0.55 um measured vertically; the component of the atmosphere to quantify the removal of radiant energy from an incident beam.",
+    "units": "dimensionless",
+    "subtype": "Clouds & Atmospheric Composition"
+  },
+  {
+    "key": "AOD_84",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "Aerosol Optical Depth 84",
+    "definition": "The optical thickness at 0.84 um measured vertically; the component of the atmosphere to quantify the removal of radiant energy from an incident beam.",
+    "units": "dimensionless",
+    "subtype": "Clouds & Atmospheric Composition"
+  },
+  {
+    "key": "CDD0",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "Cooling Degree Days Above 0 C",
+    "definition": "The daily accumulation of degrees above a 0-degree-Celsius threshold when the daily mean temperature is above the threshold.",
+    "units": "degree-day-c",
+    "subtype": "Agriculture & Energy Indices"
+  },
+  {
+    "key": "CDD10",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "Cooling Degree Days Above 10 C",
+    "definition": "The daily accumulation of degrees above a 10-degree-Celsius threshold when the daily mean temperature is above the threshold.",
+    "units": "degree-day-c",
+    "subtype": "Agriculture & Energy Indices"
+  },
+  {
+    "key": "CDD18_3",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "Cooling Degree Days Above 18.3 C",
+    "definition": "The daily accumulation of degrees above an 18.3-degree-Celsius threshold when the daily mean temperature is above the threshold.",
+    "units": "degree-day-c",
+    "subtype": "Agriculture & Energy Indices"
+  },
+  {
+    "key": "CLOUD_AMT_DAY",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "Cloud Amount at Daytime",
+    "definition": "The average percent of cloud amount during daylight.",
+    "units": "%",
+    "subtype": "Clouds & Atmospheric Composition"
+  },
+  {
+    "key": "CLOUD_AMT_NIGHT",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "Cloud Amount at Nighttime",
+    "definition": "The average percent of cloud amount during nighttime.",
+    "units": "%",
+    "subtype": "Clouds & Atmospheric Composition"
+  },
+  {
+    "key": "CLOUD_OD",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "Cloud Optical Visible Depth",
+    "definition": "The vertical optical thickness between the top and bottom of a cloud.",
+    "units": "dimensionless",
+    "subtype": "Clouds & Atmospheric Composition"
+  },
+  {
+    "key": "CLRSKY_DAYS",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "Clear Sky Days",
+    "definition": "The number of Clear Sky Days if the daytime cloud amount is less than 10 percent.",
+    "units": "Days",
+    "subtype": "Clouds & Atmospheric Composition"
+  },
+  {
+    "key": "CLRSKY_KT",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "Clear Sky Insolation Clearness Index",
+    "definition": "A fraction representing clearness of the atmosphere; the clear sky insolation that is transmitted through the atmosphere to strike the surface of the earth divided by the average of top of the atmosphere total solar irradiance incident.",
+    "units": "dimensionless",
+    "subtype": "Solar Radiation & Light"
+  },
+  {
+    "key": "CLRSKY_SFC_LW_DWN",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "Clear Sky Surface Longwave Downward Irradiance",
+    "definition": "The downward thermal infrared irradiance under clear sky conditions reaching a horizontal plane on the surface of the earth. Also known as Horizontal Infrared Radiation Intensity from Sky.",
+    "units": "MJ/m^2/day",
+    "subtype": "Surface Properties"
+  },
+  {
+    "key": "CLRSKY_SFC_LW_UP",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "Clear Sky Surface Longwave Upward Irradiance",
+    "definition": "The upward thermal infrared irradiance under clear sky conditions.",
+    "units": "MJ/m^2/day",
+    "subtype": "Surface Properties"
+  },
+  {
+    "key": "CLRSKY_SFC_PAR_DIFF",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "Clear Sky Surface Diffuse PAR",
+    "definition": "The diffuse (scattered from original direct path by molecules or particles) Photosynthetically Active Radiation (PAR) solar irradiance incident on a horizontal plane at the surface of the earth under clear sky conditions.",
+    "units": "MJ/m^2/day",
+    "subtype": "Solar Radiation & Light"
+  },
+  {
+    "key": "CLRSKY_SFC_PAR_DIRH",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "Clear Sky Surface Direct Horizontal PAR",
+    "definition": "The Photosynthetically Active Radiation (PAR) solar irradiance incident on a horizontal plane at the surface of the earth under clear sky conditions.",
+    "units": "MJ/m^2/day",
+    "subtype": "Solar Radiation & Light"
+  },
+  {
+    "key": "CLRSKY_SFC_PAR_TOT",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "Clear Sky Surface Total PAR",
+    "definition": "The total Photosynthetically Active Radiation (PAR) incident on a horizontal plane at the surface of the earth under clear sky conditions.",
+    "units": "MJ/m^2/day",
+    "subtype": "Solar Radiation & Light"
+  },
+  {
+    "key": "CLRSKY_SFC_SW_DIFF",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "Clear Sky Surface Shortwave Downward Diffuse Irradiance",
+    "definition": "The diffuse (scattered from original direct path by molecules or particles) solar irradiance incident on a horizontal plane at the surface of the earth under clear sky conditions.",
+    "units": "MJ/m^2/day",
+    "subtype": "Solar Radiation & Light"
+  },
+  {
+    "key": "CLRSKY_SFC_SW_DIRH",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "Clear Sky Surface Shortwave Direct Horizontal Irradiance",
+    "definition": "The solar irradiance incident on a horizontal plane at the surface of the earth under clear sky conditions.",
+    "units": "MJ/m^2/day",
+    "subtype": "Solar Radiation & Light"
+  },
+  {
+    "key": "CLRSKY_SFC_SW_DNI",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "Clear Sky Surface Shortwave Downward Direct Normal Irradiance",
+    "definition": "The direct solar irradiance incident to a horizontal plane normal (perpendicular) to the direction of the sun's position under clear sky conditions.",
+    "units": "MJ/m^2/day",
+    "subtype": "Solar Radiation & Light"
+  },
+  {
+    "key": "CLRSKY_SFC_SW_DWN",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "Clear Sky Surface Shortwave Downward Irradiance",
+    "definition": "The total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under clear sky conditions. An alternative term for the total solar irradiance is the \"Global Horizontal Irradiance\" or GHI.",
+    "units": "MJ/m^2/day",
+    "subtype": "Solar Radiation & Light"
+  },
+  {
+    "key": "CLRSKY_SFC_SW_UP",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "Clear Sky Surface Shortwave Upward Irradiance",
+    "definition": "The upward shortwave irradiance under clearsky conditions.",
+    "units": "MJ/m^2/day",
+    "subtype": "Solar Radiation & Light"
+  },
+  {
+    "key": "CLRSKY_SRF_ALB",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "Clear Sky Surface Albedo",
+    "definition": "The clear sky rate of reflectivity of the earth's surface; the ratio of the solar energy reflected by the surface of the earth compared to the total solar energy incident reaching the surface of the earth.",
+    "units": "dimensionless",
+    "subtype": "Surface Properties"
+  },
+  {
+    "key": "DISPH",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "Zero Plane Displacement Height",
+    "definition": "The height at which the mean velocity is zero due to large obstacles such as buildings/canopy.",
+    "units": "m",
+    "subtype": "Surface Properties"
+  },
+  {
+    "key": "EVLAND",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Evaporation Land",
+    "definition": "The evaporation over land at the surface of the earth.",
+    "units": "mm/day",
+    "subtype": "Water & Precipitation"
+  },
+  {
+    "key": "EVPTRNS",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Evapotranspiration Energy Flux",
+    "definition": "The evapotranspiration energy flux at the surface of the earth.",
+    "units": "MJ/m^2/day",
+    "subtype": "Water & Precipitation"
+  },
+  {
+    "key": "FROST_DAYS",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Frost Days",
+    "definition": "A frost day occurs when the 2m temperature cools to the dew point temperature and both are less than 0 C or 32 F.",
+    "units": "Days",
+    "subtype": "Snow & Ice"
+  },
+  {
+    "key": "FRSEAICE",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Ice Covered Fraction",
+    "definition": "The fraction of ocean covered by sea ice.",
+    "units": "1",
+    "subtype": "Snow & Ice"
+  },
+  {
+    "key": "FRSNO",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Land Snowcover Fraction",
+    "definition": "The fraction of land covered by snow.",
+    "units": "1",
+    "subtype": "Snow & Ice"
+  },
+  {
+    "key": "GDD10",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Growing Degree Days Above 10 C",
+    "definition": "Accumulated crop heat units above a 10-degree-Celsius base temperature using the complex growing degree day method; commonly used for corn/sorghum/rice/soybeans.",
+    "units": "degree-day-c",
+    "subtype": "Agriculture & Energy Indices"
+  },
+  {
+    "key": "GDD13_3",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Growing Degree Days Above 13.3 C",
+    "definition": "Accumulated crop heat units above a 13.3-degree-Celsius base temperature using the complex growing degree day method; commonly used for peanut.",
+    "units": "degree-day-c",
+    "subtype": "Agriculture & Energy Indices"
+  },
+  {
+    "key": "GDD15_6",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Growing Degree Days Above 15.6 C",
+    "definition": "Accumulated crop heat units above a 15.6-degree-Celsius base temperature using the complex growing degree day method; commonly used for cotton.",
+    "units": "degree-day-c",
+    "subtype": "Agriculture & Energy Indices"
+  },
+  {
+    "key": "GDD4_4",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Growing Degree Days Above 4.4 C",
+    "definition": "Accumulated crop heat units above a 4.4-degree-Celsius base temperature using the complex growing degree day method; commonly used for wheat/barley/rye/oats.",
+    "units": "degree-day-c",
+    "subtype": "Agriculture & Energy Indices"
+  },
+  {
+    "key": "GDD7_2",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Growing Degree Days Above 7.2 C",
+    "definition": "Accumulated crop heat units above a 7.2-degree-Celsius base temperature using the complex growing degree day method; commonly used for potato/sunflower.",
+    "units": "degree-day-c",
+    "subtype": "Agriculture & Energy Indices"
+  },
+  {
+    "key": "GWETPROF",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Profile Soil Moisture",
+    "definition": "The amount of water and water vapor present in the soil. Profile indicates the layer from the surface down to the bedrock. Values range from 0 for completely dry conditions to 1 for completely saturated soil.",
+    "units": "1",
+    "subtype": "Water & Precipitation"
+  },
+  {
+    "key": "GWETROOT",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Root Zone Soil Wetness",
+    "definition": "The amount of water and water vapor available to plants in the root zone, generally considered to be the upper 1 m of soil, expressed as the proportion of water present in a given amount of soil. Values range from 0 for completely dry conditions to 1 for completely saturated soil.",
+    "units": "1",
+    "subtype": "Water & Precipitation"
+  },
+  {
+    "key": "GWETTOP",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Surface Soil Wetness",
+    "definition": "The amount of water and water vapor present in the soil. Top indicates the upper 5 cm of soil. Values range from 0 for completely dry conditions to 1 for completely saturated soil.",
+    "units": "1",
+    "subtype": "Water & Precipitation"
+  },
+  {
+    "key": "HDD0",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Heating Degree Days Below 0 C",
+    "definition": "The daily accumulation of degrees below a 0-degree-Celsius threshold when the daily mean temperature is below the threshold.",
+    "units": "degree-day-c",
+    "subtype": "Agriculture & Energy Indices"
+  },
+  {
+    "key": "HDD10",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Heating Degree Days Below 10 C",
+    "definition": "The daily accumulation of degrees below a 10-degree-Celsius threshold when the daily mean temperature is below the threshold.",
+    "units": "degree-day-c",
+    "subtype": "Agriculture & Energy Indices"
+  },
+  {
+    "key": "HDD18_3",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Heating Degree Days Below 18.3 C",
+    "definition": "The daily accumulation of degrees below an 18.3-degree-Celsius threshold when the daily mean temperature is below the threshold.",
+    "units": "degree-day-c",
+    "subtype": "Agriculture & Energy Indices"
+  },
+  {
+    "key": "IMERG_PRECLIQUID_PROB",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Probability of Liquid Precipitation",
+    "definition": "Probability of liquid precipitation estimated with a diagnostic parameterization using ancillary data.",
+    "units": "%",
+    "subtype": "Water & Precipitation"
+  },
+  {
+    "key": "IMERG_PRECTOT",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Total Precipitation",
+    "definition": "The average IMERG total precipitation at the surface of the earth.",
+    "units": "mm/day",
+    "subtype": "Water & Precipitation"
+  },
+  {
+    "key": "IMERG_PRECTOT_COUNT",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Count of Precipitation Retrievals",
+    "definition": "The count of half-hourly precipitation retrievals where precipitation is at least 0.01 mm.",
+    "units": "count",
+    "subtype": "Water & Precipitation"
+  },
+  {
+    "key": "MIDDAY_INSOL",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "Midday Insolation Incident",
+    "definition": "The total amount of solar irradiance (direct plus diffuse) incident on a horizontal plane at the earth's surface during the solar noon hour midday period.",
+    "units": "MJ/m^2/day",
+    "subtype": "Solar Radiation & Light"
+  },
+  {
+    "key": "ORIGINAL_ALLSKY_SFC_LW_DWN",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "All Sky Surface Longwave Downward Irradiance",
+    "definition": "The downward thermal infrared irradiance under all sky conditions reaching a horizontal plane on the surface of the earth. Also known as Horizontal Infrared Radiation Intensity from Sky.",
+    "units": "MJ/m^2/day",
+    "subtype": "Surface Properties"
+  },
+  {
+    "key": "ORIGINAL_ALLSKY_SFC_SW_DIFF",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "All Sky Surface Shortwave Diffuse Irradiance",
+    "definition": "The diffuse (scattered from original direct path by molecules or particles) solar irradiance incident on a horizontal plane at the surface of the earth under all sky conditions.",
+    "units": "MJ/m^2/day",
+    "subtype": "Solar Radiation & Light"
+  },
+  {
+    "key": "ORIGINAL_ALLSKY_SFC_SW_DIRH",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "All Sky Surface Shortwave Direct Horizontal Irradiance",
+    "definition": "The solar irradiance incident on a horizontal plane at the surface of the earth under all sky conditions.",
+    "units": "MJ/m^2/day",
+    "subtype": "Solar Radiation & Light"
+  },
+  {
+    "key": "ORIGINAL_ALLSKY_SFC_SW_DWN",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "All Sky Surface Shortwave Downward Irradiance",
+    "definition": "The total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under all sky conditions. An alternative term for the total solar irradiance is the \"Global Horizontal Irradiance\" or GHI.",
+    "units": "MJ/m^2/day",
+    "subtype": "Solar Radiation & Light"
+  },
+  {
+    "key": "ORIGINAL_CLRSKY_SFC_LW_DWN",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "Clear Sky Surface Longwave Downward Irradiance",
+    "definition": "The downward thermal infrared irradiance under clear sky conditions reaching a horizontal plane on the surface of the earth. Also known as Horizontal Infrared Radiation Intensity from Sky.",
+    "units": "MJ/m^2/day",
+    "subtype": "Surface Properties"
+  },
+  {
+    "key": "ORIGINAL_CLRSKY_SFC_SW_DWN",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "Clear Sky Surface Shortwave Downward Irradiance",
+    "definition": "The total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under clear sky conditions. An alternative term for the total solar irradiance is the \"Global Horizontal Irradiance\" or GHI.",
+    "units": "MJ/m^2/day",
+    "subtype": "Solar Radiation & Light"
+  },
+  {
+    "key": "PBLTOP",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Planetary Boundary Layer Top Pressure",
+    "definition": "The pressure at the top of the planet boundary layer.",
+    "units": "kPa",
+    "subtype": "Wind & Pressure"
+  },
+  {
+    "key": "PRECSNO",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Snow Precipitation",
+    "definition": "The snow precipitation at the surface of the earth.",
+    "units": "mm/day",
+    "subtype": "Snow & Ice"
+  },
+  {
+    "key": "PRECSNOLAND",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Snow Precipitation Land",
+    "definition": "The snow precipitation only over land at the surface of the earth.",
+    "units": "mm/day",
+    "subtype": "Snow & Ice"
+  },
+  {
+    "key": "PS",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Surface Pressure",
+    "definition": "The atmospheric pressure at the surface of the earth.",
+    "units": "kPa",
+    "subtype": "Wind & Pressure"
+  },
+  {
+    "key": "PSH",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Peak Sun Hour",
+    "definition": "The average intensity of solar irradiance that reaches the surface.",
+    "units": "MJ/m^2/day",
+    "subtype": "Solar Radiation & Light"
+  },
+  {
+    "key": "PW",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Precipitable Water",
+    "definition": "The total atmospheric water vapor contained in a vertical column of the atmosphere, sourced from CERES.",
+    "units": "cm",
+    "subtype": "Water & Precipitation"
+  },
+  {
+    "key": "QV10M",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Specific Humidity at 10 Meters",
+    "definition": "The ratio of the mass of water vapor to the total mass of air at 10 meters.",
+    "units": "g/kg",
+    "subtype": "Water & Precipitation"
+  },
+  {
+    "key": "QV2M",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Specific Humidity at 2 Meters",
+    "definition": "The ratio of the mass of water vapor to the total mass of air at 2 meters.",
+    "units": "g/kg",
+    "subtype": "Water & Precipitation"
+  },
+  {
+    "key": "RH2M",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Relative Humidity at 2 Meters",
+    "definition": "The ratio of vapor pressure to the saturation vapor pressure with respect to a plane surface of pure water, expressed in percent.",
+    "units": "%",
+    "subtype": "Water & Precipitation"
+  },
+  {
+    "key": "RHOA",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Surface Air Density",
+    "definition": "The air density at surface of the earth.",
+    "units": "kg m-3",
+    "subtype": "Wind & Pressure"
+  },
+  {
+    "key": "SLP",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Sea Level Pressure",
+    "definition": "The sea level pressure at the surface of the earth.",
+    "units": "kPa",
+    "subtype": "Wind & Pressure"
+  },
+  {
+    "key": "SNODP",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Snow Depth",
+    "definition": "The snow depth on land at surface of the earth.",
+    "units": "cm",
+    "subtype": "Snow & Ice"
+  },
+  {
+    "key": "SRF_ALB_ADJ",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "Surface Albedo Adjusted",
+    "definition": "The ratio of the solar energy reflected by the surface of the earth compared to the total solar energy incident reaching the surface of the earth. Adjusted refers to CERES source parameter.",
+    "units": "dimensionless",
+    "subtype": "Surface Properties"
+  },
+  {
+    "key": "T10M",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Temperature at 10 Meters",
+    "definition": "The air (dry bulb) temperature at 10 meters above the surface of the earth.",
+    "units": "C",
+    "subtype": "Temperature"
+  },
+  {
+    "key": "T10M_MAX",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Temperature at 10 Meters Maximum",
+    "definition": "The maximum hourly air (dry bulb) temperature at 10 meters above the surface of the earth in the period of interest.",
+    "units": "C",
+    "subtype": "Temperature"
+  },
+  {
+    "key": "T10M_MIN",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Temperature at 10 Meters Minimum",
+    "definition": "The minimum hourly air (dry bulb) temperature at 10 meters above the surface of the earth in the period of interest.",
+    "units": "C",
+    "subtype": "Temperature"
+  },
+  {
+    "key": "T10M_RANGE",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Temperature at 10 Meters Range",
+    "definition": "The minimum and maximum hourly air (dry bulb) temperature range at 10 meters above the surface of the earth in the period of interest.",
+    "units": "C",
+    "subtype": "Temperature"
+  },
+  {
+    "key": "T2MDEW",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Dew/Frost Point at 2 Meters",
+    "definition": "The dew/frost point temperature at 2 meters above the surface of the earth.",
+    "units": "C",
+    "subtype": "Water & Precipitation"
+  },
+  {
+    "key": "T2MWET",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Wet Bulb Temperature at 2 Meters",
+    "definition": "The adiabatic saturation temperature which can be measured by a thermometer covered in a water-soaked cloth over which air is passed at 2 meters above the surface of the earth.",
+    "units": "C",
+    "subtype": "Water & Precipitation"
+  },
+  {
+    "key": "T2M_MAX",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Temperature at 2 Meters Maximum",
+    "definition": "The maximum hourly air (dry bulb) temperature at 2 meters above the surface of the earth in the period of interest.",
+    "units": "C",
+    "subtype": "Temperature"
+  },
+  {
+    "key": "T2M_MIN",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Temperature at 2 Meters Minimum",
+    "definition": "The minimum hourly air (dry bulb) temperature at 2 meters above the surface of the earth in the period of interest.",
+    "units": "C",
+    "subtype": "Temperature"
+  },
+  {
+    "key": "T2M_RANGE",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Temperature at 2 Meters Range",
+    "definition": "The difference between the minimum and maximum hourly air (dry bulb) temperature at 2 meters above the surface of the earth in the period of interest.",
+    "units": "C",
+    "subtype": "Temperature"
+  },
+  {
+    "key": "TO3",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Total Column Ozone",
+    "definition": "The total amount of ozone in a column extending vertically from the earth's surface to the top of the atmosphere.",
+    "units": "Dobsons",
+    "subtype": "Clouds & Atmospheric Composition"
+  },
+  {
+    "key": "TOA_SW_DNI",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "Top-Of-Atmosphere Shortwave Direct Normal Radiation",
+    "definition": "The total solar irradiance incident (direct plus diffuse) on a horizontal plane where oriented to the sun's position at the top of the atmosphere (extraterrestrial radiation).",
+    "units": "MJ/m^2/day",
+    "subtype": "Solar Radiation & Light"
+  },
+  {
+    "key": "TOA_SW_DWN",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "Top-Of-Atmosphere Shortwave Downward Irradiance",
+    "definition": "The total solar irradiance incident (direct plus diffuse) on a horizontal plane at the top of the atmosphere (extraterrestrial radiation).",
+    "units": "MJ/m^2/day",
+    "subtype": "Solar Radiation & Light"
+  },
+  {
+    "key": "TQV",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Total Column Precipitable Water",
+    "definition": "The total atmospheric water vapor contained in a vertical column of unit cross-sectional area extending from the surface to the top of the atmosphere, sourced from the GMAO.",
+    "units": "kg m-2",
+    "subtype": "Water & Precipitation"
+  },
+  {
+    "key": "TROPPB",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Tropopause Pressure based on blended estimate.",
+    "definition": "The tropopause pressure based on the blended estimate.",
+    "units": "kPa",
+    "subtype": "Wind & Pressure"
+  },
+  {
+    "key": "TROPQ",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Tropopause Specific Humidity using blended TROPP estimate.",
+    "definition": "The ratio of the mass of water vapor to the total mass of air at the tropopause pressure given by TROPPB.",
+    "units": "g/kg",
+    "subtype": "Water & Precipitation"
+  },
+  {
+    "key": "TROPT",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Tropopause Temperature using blended TROPP estimate.",
+    "definition": "The air (dry bulb) temperature at the tropopause pressure given by TROPPB.",
+    "units": "C",
+    "subtype": "Temperature"
+  },
+  {
+    "key": "TS",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Earth Skin Temperature",
+    "definition": "The average temperature at the earth's surface.",
+    "units": "C",
+    "subtype": "Temperature"
+  },
+  {
+    "key": "TSOIL1",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Soil Temperatures Layer 1",
+    "definition": "The estimate of soil temperatures at layer 1; 0.018 to 0.0988 m depth.",
+    "units": "C",
+    "subtype": "Temperature"
+  },
+  {
+    "key": "TSOIL2",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Soil Temperatures Layer 2",
+    "definition": "The estimate of soil temperatures at layer 2; 0.0988 to 0.294 m depth.",
+    "units": "C",
+    "subtype": "Temperature"
+  },
+  {
+    "key": "TSOIL3",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Soil Temperatures Layer 3",
+    "definition": "The estimate of soil temperatures at layer 3; 0.294 to 0.6799 m depth.",
+    "units": "C",
+    "subtype": "Temperature"
+  },
+  {
+    "key": "TSOIL4",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Soil Temperatures Layer 4",
+    "definition": "The estimate of soil temperatures at layer 4; 0.6799 to 1.4425 m depth.",
+    "units": "C",
+    "subtype": "Temperature"
+  },
+  {
+    "key": "TSOIL5",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Soil Temperatures Layer 5",
+    "definition": "The estimate of soil temperatures at layer 5; 1.4425 to 2.949 m depth.",
+    "units": "C",
+    "subtype": "Temperature"
+  },
+  {
+    "key": "TSOIL6",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Soil Temperatures Layer 6",
+    "definition": "The estimate of soil temperatures at layer 6; 2.949 to 10.0 m depth.",
+    "units": "C",
+    "subtype": "Temperature"
+  },
+  {
+    "key": "TSURF",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Surface Temperature of Land and Snow",
+    "definition": " The estimate of surface temperature of land and snow; 0 to 0.018 m depth.",
+    "units": "C",
+    "subtype": "Temperature"
+  },
+  {
+    "key": "TS_ADJ",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Earth Skin Temperature Adjusted",
+    "definition": "The adjusted average temperature at the earth's surface. Adjusted refers to CERES source parameter.",
+    "units": "C",
+    "subtype": "Temperature"
+  },
+  {
+    "key": "TS_MAX",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Earth Skin Temperature Maximum",
+    "definition": "The maximum hourly earth skin temperature in the period of interest.",
+    "units": "C",
+    "subtype": "Temperature"
+  },
+  {
+    "key": "TS_MIN",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Earth Skin Temperature Minimum",
+    "definition": "The minimum hourly earth skin temperature in the period of interest.",
+    "units": "C",
+    "subtype": "Temperature"
+  },
+  {
+    "key": "TS_RANGE",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Earth Skin Temperature Range",
+    "definition": "The minimum and maximum hourly earth skin temperature range in the period of interest.",
+    "units": "C",
+    "subtype": "Temperature"
+  },
+  {
+    "key": "U10M",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Eastward Wind at 10 Meters",
+    "definition": "The estimate of the eastward wind average speed for winds blowing 10 meters above the surface of the earth.",
+    "units": "m/s",
+    "subtype": "Wind & Pressure"
+  },
+  {
+    "key": "U2M",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Eastward Wind at 2 Meters",
+    "definition": "The estimate of the eastward wind average speed for winds blowing 2 meters above the surface of the earth.",
+    "units": "m/s",
+    "subtype": "Wind & Pressure"
+  },
+  {
+    "key": "U50M",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Eastward Wind at 50 Meters",
+    "definition": "The estimate of the eastward wind average speed for winds blowing 50 meters above the surface of the earth.",
+    "units": "m/s",
+    "subtype": "Wind & Pressure"
+  },
+  {
+    "key": "V10M",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Northward Wind at 10 Meters",
+    "definition": "The estimate of the northward wind average speed for winds blowing 10 meters above the surface of the earth.",
+    "units": "m/s",
+    "subtype": "Wind & Pressure"
+  },
+  {
+    "key": "V2M",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Northward Wind at 2 Meters",
+    "definition": "The estimate of the northward wind average speed for winds blowing 2 meters above the surface of the earth.",
+    "units": "m/s",
+    "subtype": "Wind & Pressure"
+  },
+  {
+    "key": "V50M",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Northward Wind at 50 Meters",
+    "definition": "The estimate of the northward wind average speed for winds blowing 50 meters above the surface of the earth.",
+    "units": "m/s",
+    "subtype": "Wind & Pressure"
+  },
+  {
+    "key": "WS10M_MAX",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Wind Speed at 10 Meters Maximum",
+    "definition": "The maximum hourly wind speed at 10 meters above the surface of the earth in the period of interest.",
+    "units": "m/s",
+    "subtype": "Wind & Pressure"
+  },
+  {
+    "key": "WS10M_MIN",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Wind Speed at 10 Meters Minimum",
+    "definition": "The minimum hourly wind speed at 10 meters above the surface of the earth in the period of interest.",
+    "units": "m/s",
+    "subtype": "Wind & Pressure"
+  },
+  {
+    "key": "WS10M_RANGE",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Wind Speed at 10 Meters Range",
+    "definition": "The minimum and maximum hourly wind speed range at 10 meters above the surface of the earth.",
+    "units": "m/s",
+    "subtype": "Wind & Pressure"
+  },
+  {
+    "key": "WS2M",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Wind Speed at 2 Meters",
+    "definition": "The average of wind speed at 2 meters above the surface of the earth.",
+    "units": "m/s",
+    "subtype": "Wind & Pressure"
+  },
+  {
+    "key": "WS2M_MAX",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Wind Speed at 2 Meters Maximum",
+    "definition": "The maximum hourly wind speed at 2 meters above the surface of the earth in the period of interest.",
+    "units": "m/s",
+    "subtype": "Wind & Pressure"
+  },
+  {
+    "key": "WS2M_MIN",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Wind Speed at 2 Meters Minimum",
+    "definition": "The minimum hourly wind speed at 2 meters above the surface of the earth in the period of interest.",
+    "units": "m/s",
+    "subtype": "Wind & Pressure"
+  },
+  {
+    "key": "WS2M_RANGE",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Wind Speed at 2 Meters Range",
+    "definition": "The minimum and maximum hourly wind speed range at 2 meters above the surface of the earth.",
+    "units": "m/s",
+    "subtype": "Wind & Pressure"
+  },
+  {
+    "key": "WS50M",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Wind Speed at 50 Meters",
+    "definition": "The average of wind speed at 50 meters above the surface of the earth.",
+    "units": "m/s",
+    "subtype": "Wind & Pressure"
+  },
+  {
+    "key": "WS50M_MAX",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Wind Speed at 50 Meters Maximum",
+    "definition": "The maximum hourly wind speed at 50 meters above the surface of the earth in the period of interest.",
+    "units": "m/s",
+    "subtype": "Wind & Pressure"
+  },
+  {
+    "key": "WS50M_MIN",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Wind Speed at 50 Meters Minimum",
+    "definition": "The minimum hourly wind speed at 50 meters above the surface of the earth in the period of interest.",
+    "units": "m/s",
+    "subtype": "Wind & Pressure"
+  },
+  {
+    "key": "WS50M_RANGE",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Wind Speed at 50 Meters Range",
+    "definition": "The minimum and maximum hourly wind speed range at 50 meters above the surface of the earth.",
+    "units": "m/s",
+    "subtype": "Wind & Pressure"
+  },
+  {
+    "key": "Z0M",
+    "type": "METEOROLOGY",
+    "temporal": "DAILY",
+    "name": "Surface Roughness",
+    "definition": "The height above the displacement plane at which the mean wind becomes zero when extrapolating the logarithmic wind speed profile downward through the surface layer.",
+    "units": "m",
+    "subtype": "Surface Properties"
+  },
+  {
+    "key": "CLRSKY_NKT",
+    "type": "RADIATION",
+    "temporal": "DAILY",
+    "name": "Clear Sky Normalized Insolation Clearness Index",
+    "definition": "The average zenith angle-independent expression of the clear sky insolation clearness index.",
+    "units": "dimensionless",
+    "subtype": "Solar Radiation & Light"
+  },
+  {
+    "key": "SZA",
+    "type": "SOLAR-GEOMETRY",
+    "temporal": "DAILY",
+    "name": "Solar Zenith Angle",
+    "definition": "The angle between the geodetic zenith vector and a vector from the earth point to the sun integrated over the period.",
+    "units": "Degrees",
+    "subtype": "Solar Radiation & Light"
+  }
+]

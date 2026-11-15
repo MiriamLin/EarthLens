@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.venv/
+__pycache__/
+*.py[cod]
+*.tsbuildinfo
+.env
+.env.*
+.DS_Store
+backend/data/maps/
+.vercel

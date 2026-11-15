@@ -1,0 +1,7 @@
+fastapi>=0.115,<1
+uvicorn>=0.30,<1
+pandas>=2.2,<3
+numpy>=2,<3
+xarray>=2024.3,<2025.2
+zarr>=2.18,<3
+fsspec[http]>=2024.3,<2027
